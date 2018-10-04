@@ -10,12 +10,12 @@ function addElementToBeginningOfArray (array, element) {
   return newArray;
 };
 
-// function destructivelyAddElementToBeginningOfArray (array, element) {
-//   var alteredArray = array.unshift(element);
-//   return alteredArray;
-// };
-//
-// function destructivelyAddElementToEndOfArray (array, element) {
-//   var alteredArray = array.push(element);
-//   return alteredArray;
-// };
+function destructivelyAddElementToBeginningOfArray (array, element) {
+  var alteredArray = array.unshift(element);
+  return alteredArray;
+};
+
+function destructivelyAddElementToEndOfArray (array, element) {
+  var alteredArray = array.push(element);
+  return alteredArray;
+};
