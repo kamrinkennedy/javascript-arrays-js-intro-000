@@ -21,7 +21,7 @@ function destructivelyAddElementToEndOfArray (array, element) {
 };
 
 function addElementToEndOfArray (array, element) {
-  newArray2 = [...array, element];
+  newArray = [...array, element];
   return newArray2;
 };
 
@@ -33,3 +33,7 @@ function destructivelyRemoveElementFromBeginningOfArray (array) {
   array.shift();
   return array
 }
+
+// function removeElementFromBeginningOfArray (array) {
+//   newArray3 = []
+// }
