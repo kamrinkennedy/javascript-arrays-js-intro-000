@@ -24,3 +24,7 @@ function addElementToEndOfArray (array, element) {
   newArray2 = [...array, element];
   return newArray2;
 };
+
+function accessElementInArray (array, index) {
+  return array[index];
+};
