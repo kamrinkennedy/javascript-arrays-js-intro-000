@@ -43,3 +43,7 @@ function destructivelyRemoveElementFromEndOfArray (array) {
   array.pop();
   return array;
 };
+
+function removeElementFromEndofArray (array) {
+  newArray = array.slice(array.lentgh - 1)
+};
